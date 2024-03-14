@@ -1,0 +1,84 @@
+.card-container {
+    font-family: 'Poppins', sans-serif;
+    border-left: solid 2px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .content {
+    flex: 1;
+    padding-right: 20px;
+    width: fit-content;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    width: fit-content;
+  }
+  
+  .purple-text {
+    color: #5553B7;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    height: 36px;
+    padding: 0 20px;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .primatybtn {
+    background-color: #2DD35C;
+    color: white;
+  }
+  .primatybtn:hover, .secondarybtn:hover {
+    opacity: 75%;
+    transform: scale(1.05);
+    transition: 100ms;
+  }
+  
+  .secondarybtn {
+    background-color: #E0E7FF;
+    color: #6D28D9;
+    border: 1px solid #6D28D9;
+    margin-left: 10px;
+  }
+  
+  .bkg-container {
+    
+    background-color: #DDD6FE;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: -1;
+    position: absolute;
+  right: 0;
+  /* top: 0; */
+  width: 50%;
+  height: 50%;
+  background-color: #DDD6FE;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: -1; 
+  padding: auto 0;
+  align-self: center;
+  }
+
+  .outline{
+    border: solid 2px #2DD35C;
+    padding: 34px 44px;
+    width: 75%;
+    border-radius: 0 200px 20px 0;
+  }
+  
