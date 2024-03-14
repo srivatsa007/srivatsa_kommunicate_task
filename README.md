@@ -17,7 +17,7 @@
 
 #### React Concepts Used:
 1. **Context API:**
-   The Context API is used for managing authentication state across components. `AuthProvider` wraps the entire application to provide authentication context.
+   - The Context API is used for managing authentication state across components. `AuthProvider` wraps the entire application to provide authentication context.
 
 ```javascript
 // AuthProvider.js
